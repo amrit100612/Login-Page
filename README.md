@@ -44,10 +44,9 @@ Follow these quick steps to get started:
 3. Clone your forked repository:
 git clone https://github.com/amrit100612/Login-Page.git
 
-text
-4. Run `pwd` (or check folder path) to confirm your directory.
-5. Open the folder in your favorite code editor (e.g., VS Code).
-6. Now you’re ready to go!  
+5. Run `pwd` (or check folder path) to confirm your directory.
+6. Open the folder in your favorite code editor (e.g., VS Code).
+7. Now you’re ready to go!  
 Make edits, customize designs, and create something awesome.
 
 To save your changes:
@@ -55,7 +54,6 @@ git add .
 git commit -m "[YOUR MESSAGE]"
 git push origin main
 
-text
 
 Finally, open the `index.html` file in any web browser (Chrome, Firefox, Edge, Safari) — and enjoy 🚀✨
 
