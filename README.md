@@ -34,8 +34,8 @@ Welcome to this modern and stylish web project! This project is built using basi
 3. Clone your forked repository to your local system:
 
 Clone Your Fork
-git clone 
-Now run PWD command to find your Folder
+git clone https://github.com/amrit100612/Login-Page.git
+Now run **pwd** command to find path of your Folder
 
 Then open that folder in your code editor(eg. VS CODE EDITOR) and BOOM you're READY TO GO!!!!
 Now you're the master, Make changes as per your choice 
