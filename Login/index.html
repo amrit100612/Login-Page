@@ -13,23 +13,43 @@
   <button id="registerBtn">Register</button>
 </div>
 
+<!-- 🌙 Dark Mode Toggle -->
+<div class="theme-toggle">
+  <button id="themeToggle" title="Switch Theme">🌙</button>
+</div>
+
+
+
+
 <div class="container">
   <div class="form-container" id="loginForm">
     <h2>Welcome Back</h2>
     <input type="email" placeholder="Email" required />
-    <input type="password" placeholder="Password" required />
+    <!-- 👁 Show/Hide Password -->
+    <div class="password-container">
+      <input type="password" id="loginPassword" placeholder="Password" required />
+      <span class="toggle-password" data-target="loginPassword">👁</span>
+    </div>
+
     <input type="submit" value="Login" />
   </div>
 
+  <!-- ✅ Register Form -->
   <div class="form-container hidden" id="registerForm">
     <h2>Create Account</h2>
     <input type="text" placeholder="Full Name" required />
     <input type="email" placeholder="Email" required />
-    <input type="password" placeholder="Password" required />
+
+    <!-- 👁 Show/Hide Password -->
+    <div class="password-container">
+      <input type="password" id="registerPassword" placeholder="Password" required />
+      <span class="toggle-password" data-target="registerPassword">👁</span>
+    </div>
+
     <input type="submit" value="Register" />
   </div>
 </div>
-
+    
 <script src="script.js"></script>
 </body>
 </html>
