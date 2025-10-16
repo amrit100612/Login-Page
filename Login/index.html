@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Login & Register</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="toggle-btns">
+  <button id="loginBtn" class="active">Login</button>
+  <button id="registerBtn">Register</button>
+</div>
+
+<div class="container">
+  <div class="form-container" id="loginForm">
+    <h2>Welcome Back</h2>
+    <input type="email" placeholder="Email" required />
+    <input type="password" placeholder="Password" required />
+    <input type="submit" value="Login" />
+  </div>
+
+  <div class="form-container hidden" id="registerForm">
+    <h2>Create Account</h2>
+    <input type="text" placeholder="Full Name" required />
+    <input type="email" placeholder="Email" required />
+    <input type="password" placeholder="Password" required />
+    <input type="submit" value="Register" />
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
